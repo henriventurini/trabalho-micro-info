@@ -21,7 +21,7 @@
     justify-content: space-evenly;
 }
 .pBase{
-    font-size: 40px;
+    font-size: 35px;
 }
 .titulos{
     font-size: 60px;
@@ -59,4 +59,29 @@ div{
 .tituloCon{
     text-align: center; 
 }
-
+.linhaObj{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.colunaObj{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.linhaObjSemSpace{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.miniImag{
+    align-self: center;
+    height: 70px;
+    width: 70px;
+}
+.numeros{
+    align-self: center;
+    height: 45px;
+    width: 45px;
+}
