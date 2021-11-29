@@ -1,7 +1,7 @@
 /* CSS do site */
 
 #logo{
-    height: 70px;
+    height: 100px;
     width: 250px;
     /*margin-left: 2cm;*/
 }
@@ -19,12 +19,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    background-color: #589c9c;
 }
 .pBase{
     font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .titulos{
     font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .botao{
     margin: auto;
@@ -32,7 +35,7 @@
     height: 45px;
     color: white;
     font-size: 20px;
-    background-color: green;
+    background-color: rgb(0, 68, 77);
     border: 1px solid black;
     border-right: 4px solid black; 
     border-bottom: 4px solid black; 
@@ -43,11 +46,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly; 
+    background-color: #D1E0E0;
 }
 .textImage{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; 
+    background-color: #D1E0E0;
 }
 div{
     width: 100%;
@@ -57,23 +62,37 @@ div{
     width: 50%;
 }
 .tituloCon{
+    background-color: #589c9c;
     text-align: center; 
 }
 .linhaObj{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    background-color: #589c9c;
 }
 .colunaObj{
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: space-evenly; 
+    background-color: #589c9c;
+}
+.tituloCon2{
+    background-color: #D1E0E0;
+    text-align: center; 
+}
+.linhaObj2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color: #D1E0E0;
 }
 .linhaObjSemSpace{
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: space-evenly; 
+    background-color: #D1E0E0;
 }
 .miniImag{
     align-self: center;
@@ -85,3 +104,31 @@ div{
     height: 45px;
     width: 45px;
 }
+.proMove{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: #589c9c;
+}
+.divContentImgs{
+    background-color: #589c9c;
+}
+.divContentPalavras{
+    background-color: #D1E0E0;
+}
+.form{
+    text-align: center; 
+    background-color: #589c9c;
+}
+textarea{
+    font-size: 30px;
+}
+input{
+    font-size: 30px;
+}
+header{
+    background-color: #1f5a5a;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+/* #589c9c */
